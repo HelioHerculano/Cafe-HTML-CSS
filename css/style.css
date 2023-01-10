@@ -79,3 +79,131 @@ a.menu-logo{
     font-size:1.125em
 }
 
+/* Sobre */
+.sobre{
+    padding: 60px 0;
+}
+.sobre h2{
+    text-align: center;
+    font-size: 2.25em;
+    margin-bottom: 60px;
+}
+
+.sobre-container{
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+.sobre-container::after,.sobre-container::before{
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.sobre-item{
+    width: 460px;
+    float: left;
+    margin: 0 10px;
+}
+
+.sobre-item img{
+     display: block;
+     max-width: 100%;
+     
+}
+
+.sobre-item h3{
+    font-size: 2.25em;
+    background: #252525;
+    width: 220px;
+    color: #fff;
+    line-height: 1em;
+    font-style: italic;
+    font-weight: normal;
+    text-align: center;
+    padding: 5px 0 10px 0;
+    top: -25px;
+    position: relative;
+}
+
+.sobre > p{
+    font-size: 1.25em;
+    line-height: 1.4;
+    font-style: italic;
+    text-align: center;
+    margin: 20px auto;
+    max-width: 460px;
+}
+
+.produtos{
+    background: #e7e4d8;
+    text-align: center;
+    padding: 60px 0;
+    border-top: 3px solid #dcd3c8;
+    border-bottom: 3px solid #dcd3c8;
+}
+
+.produtos-container{
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+.produtos-container::after,.produtos-container::before{
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.produtos-item{
+    width: 300px;
+    float: right;
+    margin: 0 10px 20px 10px;
+}
+
+.produtos-item h2{
+    font-size: 2.25em;
+    margin-bottom: 20px;
+}
+
+.produtos-item h2::before{
+    content: '';
+    display: block;
+    width: 100px;
+    height: 100px;
+    background: currentColor;
+    border-radius: 50%;
+    margin: 0 auto;
+    border: 5px solid #e7e4d8;
+    box-shadow: 0 0 0 10px currentColor;
+    margin-bottom: 20px;
+}
+
+h2.produtos-paulista::before{
+    color: #492901;
+}
+
+h2.produtos-carioca::before{
+    color: #c17139;
+}
+
+h2.produtos-mineiro::before{
+    color: #d7a54d;
+}
+
+.produtos-item p{
+    font-size: 0.875em;
+    line-height: 1.4em;
+}
+
+.produtos-btn{
+    width: 180px;
+   text-decoration: none;
+   text-transform: uppercase;
+   font-weight: bold;
+   font-size: 1.125em;
+   color: #252525;
+   display: block;
+   border: 3px solid;
+   padding: 15px 0;
+   margin: 20px auto 0 auto;
+}
